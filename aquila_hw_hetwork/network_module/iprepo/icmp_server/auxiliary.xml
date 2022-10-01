@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="icmp_server" xd:componentRef="icmp_server" xd:initiationInterval="6" xd:clockPeriod="6.400" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="s_axis.data" xd:originalName="s_axis" xd:direction="in" xd:interfaceRef="s_axis" xd:busTypeRef="axis" xd:dataWidth="64"/>
+  <xd:arg xd:name="s_axis.keep" xd:originalName="s_axis" xd:direction="in" xd:interfaceRef="s_axis" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="s_axis.last" xd:originalName="s_axis" xd:direction="in" xd:interfaceRef="s_axis" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="udpIn.data" xd:originalName="udpIn" xd:direction="in" xd:interfaceRef="udpIn" xd:busTypeRef="axis" xd:dataWidth="64"/>
+  <xd:arg xd:name="udpIn.keep" xd:originalName="udpIn" xd:direction="in" xd:interfaceRef="udpIn" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="udpIn.last" xd:originalName="udpIn" xd:direction="in" xd:interfaceRef="udpIn" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="ttlIn.data" xd:originalName="ttlIn" xd:direction="in" xd:interfaceRef="ttlIn" xd:busTypeRef="axis" xd:dataWidth="64"/>
+  <xd:arg xd:name="ttlIn.keep" xd:originalName="ttlIn" xd:direction="in" xd:interfaceRef="ttlIn" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="ttlIn.last" xd:originalName="ttlIn" xd:direction="in" xd:interfaceRef="ttlIn" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="m_axis.data" xd:originalName="m_axis" xd:direction="out" xd:interfaceRef="m_axis" xd:busTypeRef="axis" xd:dataWidth="64"/>
+  <xd:arg xd:name="m_axis.keep" xd:originalName="m_axis" xd:direction="out" xd:interfaceRef="m_axis" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="m_axis.last" xd:originalName="m_axis" xd:direction="out" xd:interfaceRef="m_axis" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="5" xd:worst-case="5" xd:average-case="5"/>
+  <xd:resourceEstimates xd:LUT="3712" xd:FF="1843" xd:BRAM="22" xd:DSP="0"/>
+</xd:acceleratorMap>
