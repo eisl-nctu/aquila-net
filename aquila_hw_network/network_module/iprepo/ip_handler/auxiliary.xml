@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="ip_handler_top" xd:componentRef="ip_handler" xd:initiationInterval="24" xd:clockPeriod="6.400" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="s_axis_raw.data" xd:originalName="s_axis_raw" xd:direction="in" xd:interfaceRef="s_axis_raw" xd:busTypeRef="axis" xd:dataWidth="64"/>
+  <xd:arg xd:name="s_axis_raw.keep" xd:originalName="s_axis_raw" xd:direction="in" xd:interfaceRef="s_axis_raw" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="s_axis_raw.last" xd:originalName="s_axis_raw" xd:direction="in" xd:interfaceRef="s_axis_raw" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="m_axis_arp.data" xd:originalName="m_axis_arp" xd:direction="out" xd:interfaceRef="m_axis_arp" xd:busTypeRef="axis" xd:dataWidth="64"/>
+  <xd:arg xd:name="m_axis_arp.keep" xd:originalName="m_axis_arp" xd:direction="out" xd:interfaceRef="m_axis_arp" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="m_axis_arp.last" xd:originalName="m_axis_arp" xd:direction="out" xd:interfaceRef="m_axis_arp" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="m_axis_icmpv6.data" xd:originalName="m_axis_icmpv6" xd:direction="out" xd:interfaceRef="m_axis_icmpv6" xd:busTypeRef="axis" xd:dataWidth="64"/>
+  <xd:arg xd:name="m_axis_icmpv6.keep" xd:originalName="m_axis_icmpv6" xd:direction="out" xd:interfaceRef="m_axis_icmpv6" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="m_axis_icmpv6.last" xd:originalName="m_axis_icmpv6" xd:direction="out" xd:interfaceRef="m_axis_icmpv6" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="m_axis_ipv6udp.data" xd:originalName="m_axis_ipv6udp" xd:direction="out" xd:interfaceRef="m_axis_ipv6udp" xd:busTypeRef="axis" xd:dataWidth="64"/>
+  <xd:arg xd:name="m_axis_ipv6udp.keep" xd:originalName="m_axis_ipv6udp" xd:direction="out" xd:interfaceRef="m_axis_ipv6udp" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="m_axis_ipv6udp.last" xd:originalName="m_axis_ipv6udp" xd:direction="out" xd:interfaceRef="m_axis_ipv6udp" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="m_axis_icmp.data" xd:originalName="m_axis_icmp" xd:direction="out" xd:interfaceRef="m_axis_icmp" xd:busTypeRef="axis" xd:dataWidth="64"/>
+  <xd:arg xd:name="m_axis_icmp.keep" xd:originalName="m_axis_icmp" xd:direction="out" xd:interfaceRef="m_axis_icmp" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="m_axis_icmp.last" xd:originalName="m_axis_icmp" xd:direction="out" xd:interfaceRef="m_axis_icmp" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="m_axis_udp.data" xd:originalName="m_axis_udp" xd:direction="out" xd:interfaceRef="m_axis_udp" xd:busTypeRef="axis" xd:dataWidth="64"/>
+  <xd:arg xd:name="m_axis_udp.keep" xd:originalName="m_axis_udp" xd:direction="out" xd:interfaceRef="m_axis_udp" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="m_axis_udp.last" xd:originalName="m_axis_udp" xd:direction="out" xd:interfaceRef="m_axis_udp" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="m_axis_tcp.data" xd:originalName="m_axis_tcp" xd:direction="out" xd:interfaceRef="m_axis_tcp" xd:busTypeRef="axis" xd:dataWidth="64"/>
+  <xd:arg xd:name="m_axis_tcp.keep" xd:originalName="m_axis_tcp" xd:direction="out" xd:interfaceRef="m_axis_tcp" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="m_axis_tcp.last" xd:originalName="m_axis_tcp" xd:direction="out" xd:interfaceRef="m_axis_tcp" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="m_axis_roce.data" xd:originalName="m_axis_roce" xd:direction="out" xd:interfaceRef="m_axis_roce" xd:busTypeRef="axis" xd:dataWidth="64"/>
+  <xd:arg xd:name="m_axis_roce.keep" xd:originalName="m_axis_roce" xd:direction="out" xd:interfaceRef="m_axis_roce" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="m_axis_roce.last" xd:originalName="m_axis_roce" xd:direction="out" xd:interfaceRef="m_axis_roce" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="myIpAddress" xd:originalName="myIpAddress" xd:direction="in" xd:interfaceRef="myIpAddress_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="1"/>
+  <xd:latencyEstimates xd:best-case="23" xd:worst-case="23" xd:average-case="23"/>
+  <xd:resourceEstimates xd:LUT="9911" xd:FF="3282" xd:BRAM="5" xd:DSP="0"/>
+</xd:acceleratorMap>
