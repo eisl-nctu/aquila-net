@@ -11,7 +11,7 @@ To create the complete Vivado workspace for the Aquila SoC, you can use the buil
 <<Vivado Installation directory>>/bin/vivado -mode batch -source build.tcl
 ```
 
-The created project workspace will be in the directory aquila_kc705/. The workspace does not use the Vivado IP Integrator as in the Aquila project. As a results, there will be slight timing vialation and clock-domain-crossing (CDC) methodlogy warnings when you synthesize the circuit. These warnings does not affect the execution of the HW-SW system. Such issues can be resolved if the AXI Interconnects are used for CDC, which would be trivial if IP integrator are used. Yet another promises: we will revised our CDC modules and resolve the timing violations without resorting to the AXI interconnet IPs in future releases.
+The created project workspace will be in the directory aquila_kc705/. The workspace does not use the Vivado IP Integrator as in the Aquila project. As a results, there will be slight timing vialation and clock-domain-crossing (CDC) methodlogy warnings when you synthesize the circuit. These warnings does not affect the execution of the HW-SW system. Such issues can be resolved if the AXI Interconnects are used for CDC, which would be trivial if IP integrator is used. Yet another promises: we will revised our CDC modules and resolve the timing violations without resorting to the AXI interconnet IPs in future releases.
 
 # Contact Info
 Embedded Intelligent Systems Lab (EISL)
